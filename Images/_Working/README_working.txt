@@ -1,0 +1,1 @@
+Purpose: to store images that are being worked on.

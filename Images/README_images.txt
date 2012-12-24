@@ -1,0 +1,1 @@
+Purpose: to store images for use in the game.
