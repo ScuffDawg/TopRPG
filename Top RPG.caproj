@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>Top RPG</name>
+    <description></description>
+    <version>1.0</version>
+    <author></author>
+    <unique-id>at6lk3g2ce3i</unique-id>
+    <saved-with-version>11400</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Text" version="1">Text</plugin>
+        <plugin author="Zack0Wack0/Scirra" id="WebStorage" version="1">WebStorage</plugin>
+        <plugin author="Scirra" id="XML" version="1">XML</plugin>
+        <plugin author="Scirra" id="Function" version="1">Function</plugin>
+    </used-plugins>
+    <used-behaviors />
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>1280</width>
+        <height>720</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Hide address bar">No</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Preview browser">(default)</prop>
+        <prop name="Sampling">Point</prop>
+        <prop name="Use iOS retina display">iPhone only</prop>
+    </configuration-settings>
+    <object-folder expanded="1">
+        <object-folder expanded="0" name="Utilities">
+            <object-type name="WebStorage">
+                <plugin id="WebStorage" />
+            </object-type>
+            <object-type global="1" name="XML">
+                <plugin id="XML" />
+            </object-type>
+            <object-type name="Function">
+                <plugin id="Function" />
+            </object-type>
+        </object-folder>
+        <object-type name="Text">
+            <plugin id="Text" />
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder expanded="1">
+        <layout>Main Menu.xml</layout>
+    </layout-folder>
+    <event-folder expanded="1">
+        <event-sheet>evnt_Main_Menu.xml</event-sheet>
+    </event-folder>
+    <global-instances>
+        <global-instance type="WebStorage" />
+        <global-instance type="Function" />
+    </global-instances>
+    <sounds-folder expanded="1" />
+    <music-folder expanded="1" />
+    <files-folder expanded="1" />
+</c2project>
